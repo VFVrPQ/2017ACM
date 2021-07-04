@@ -49,9 +49,6 @@ int main()
 {
     //FILE * fp = fopen("1.txt","r");
     fread(buf, 1, BUF_SIZE-1, stdin);
-    //fclose(fp);
-    //printf("buf=%s",buf);
-    //printf("%d\n",strlen(buf));
     int Case = getInt();
     while (Case--){
         n = getInt(); K = getInt();
